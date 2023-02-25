@@ -5,7 +5,7 @@ const LBcities = require('./LBcities.json');
 const PORT = process.env.PORT || 3030;
 
  app.use(cors({
-   origin: 'https://tareklb1.github.io/All-LBcities-Info-Weather-/'
+   origin: 'https://tareklb1.github.io'
  }));
 
 app.get('/LBcities', function (req, res) {
