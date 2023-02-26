@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const cors = require('cors')
-const LBcities = require('./LBcities.json');
+const LBcities = require('./LBcitiesmodified.json');
 const PORT = process.env.PORT || 3030;
 
  app.use(cors({
