@@ -5,7 +5,7 @@ const LBcities = require('./LBcities.json');
 const PORT = process.env.PORT || 3030;
 
  app.use(cors({
-   origin: 'http://127.0.0.1:5500'
+   origin: 'http://127.0.0.1:5502'
  }));
 
 app.get('/LBcities', function (req, res) {
